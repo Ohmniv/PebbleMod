@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "pebblemod",
+  "version": "${version}",
+  "name": "PebbleMod",
+  "description": "A MDK useful for Fabric Development",
+  "authors": [
+    "Me!"
+  ],
+  "license": "MIT License",
+  "icon": "assets/example/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.pebblemod.pebbleMod"
+    ]
+  },
+  "depends": {
+    "minecraft": "1.21.1",
+    "cobblemon": ">=1.6.0",
+    "mega_showdown": ">=3.8.3-release-fabric"
+  }
+}
